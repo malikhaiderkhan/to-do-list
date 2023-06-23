@@ -13,8 +13,8 @@ module.exports = {
     }),
   ],
   output: {
-    filename: 'main.js',
     path: path.resolve(__dirname, 'dist'),
+    filename: '[name].js',
     clean: true,
   },
   optimization: {

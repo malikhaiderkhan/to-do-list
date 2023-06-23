@@ -1,7 +1,3 @@
-function saveTasks(tasktodo) {
-  localStorage.setItem('tasktodo', JSON.stringify(tasktodo));
-}
-
 export default function addTask(description, tasktodo) {
   const newTask = {
     description,
@@ -10,5 +6,5 @@ export default function addTask(description, tasktodo) {
   };
 
   tasktodo.push(newTask);
-  saveTasks(tasktodo);
+  localStorage.setItem('tasktodo', JSON.stringify(tasktodo));
 }
