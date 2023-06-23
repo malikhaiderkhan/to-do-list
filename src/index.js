@@ -19,7 +19,7 @@ function editTaskDescription(taskDescription) {
 
 function populateTaskList() {
   const taskList = document.getElementById('task-list');
-  taskList.innerHTML = ''; 
+  taskList.innerHTML = '';
 
   const sortedTasks = [...tasktodo].sort((a, b) => a.index - b.index);
 
