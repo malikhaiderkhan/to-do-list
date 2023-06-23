@@ -80,6 +80,8 @@ ul li {
 
 .list-item-image {
   position: fixed;
+  width: 20px;
+  height: auto;
   margin-left: 475px;
 }
 
@@ -96,4 +98,5 @@ ul li {
   font-size: 23px;
   color: grey;
   align-items: center;
+  border: none;
 }
