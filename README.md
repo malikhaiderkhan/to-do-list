@@ -57,7 +57,7 @@
 
 > Below is a link to my deployed project.
 
-- [Live Demo Link](#)
+- [Live Demo Link](https://malikhaiderkhan.github.io/to-do-list/src/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
