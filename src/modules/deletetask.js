@@ -1,4 +1,4 @@
-function updateIndexes(tasktodo) {
+export function updateIndexes(tasktodo) {
   tasktodo.forEach((task, index) => {
     task.index = index + 1;
   });
