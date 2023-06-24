@@ -100,3 +100,11 @@ ul li {
   align-items: center;
   border: none;
 }
+
+.completed {
+  text-decoration: line-through;
+}
+
+.checkbox-icon:checked {
+  background-color: #000;
+}
